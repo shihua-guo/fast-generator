@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <title>添加实体
+    </title>
+    <head>
+        <script>
+            window.onload = function(){
+                var addBtn = document.getElementById("add-property");
+                var propertiesUl = document.getElementById("properties-ul");
+                addBtn.addEventListener("click",function(){
+                    propertiesUl.append(document.createElement("li"));
+                });
+            };
+        </script>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>实体名称：</label>
+                <input type="text" name="entityName"/>
+            </div>
+            <div>
+                <label>属性：</label>
+                <button type="button" id="add-property">添加属性</button>
+                <button  type="button" id="remove-property">添加属性</button>
+                <div class="properties-div">
+                    <ul id="properties-ul">
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

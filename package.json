@@ -1,0 +1,17 @@
+{
+  "name": "fast-generator",
+  "version": "1.0.0",
+  "description": "a generator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alan9uo",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.1.4",
+    "element-ui": "^2.7.2",
+    "vue": "^2.6.10"
+  }
+}
